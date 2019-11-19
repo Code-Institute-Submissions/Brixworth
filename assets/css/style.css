@@ -1,0 +1,119 @@
+
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  width:50;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+
+}
+
+/* Style the hamburger menu */
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+}
+
+/* Add a grey background color on mouse-over */
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+/* Style the active link (or home/logo) */
+.active {
+  background-color: white;
+  color: white;
+
+}
+
+
+
+
+/*------- Body------------*/
+.btn-primary {
+  background-color: #B2BEB5;
+}
+
+
+
+
+
+
+
+
+/*---------- Page styling ----------------------*/
+
+.heading {
+  font-family: 'Times New Roman', cursive;
+    font-weight: 800;
+    font-size: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white
+    color: black;
+    text-align: center;
+}
+
+.mainheading {
+  font-family: 'Times New Roman', cursive;
+  font-weight: 300;
+  font-size: 40px;
+  color: black;
+  margin-left: 60px;
+  margin-top:10px;
+  text-align: center;
+}
+
+
+.main {
+  font-family: 'Times New Roman', cursive;
+  font-size: 20px;
+  color: black;
+  test-allign: left;
+  margin-top:25px;
+
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
