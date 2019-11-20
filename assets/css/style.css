@@ -1,35 +1,18 @@
 
 
-/* Grow */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
-}
-
-
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
-  width:50;
+  max-width:200px
+
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  max-width:200px;
 }
 
 /* Style navigation menu links */
@@ -39,6 +22,9 @@
   text-decoration: none;
   font-size: 17px;
   display: block;
+  max-width: 200px;
+  text-align: center;
+
 
 }
 
@@ -48,9 +34,8 @@
   background: black;
   display: block;
   position: absolute;
-  left: 0px;
-  top: 0px;
-
+  left: 0;
+  top: 0;
 }
 
 /* Add a grey background color on mouse-over */
@@ -58,6 +43,12 @@
 .topnav a:hover {
   background-color: white;
   color: black;
+
+
+
+
+
+
 }
 /* Style the active link (or home/logo) */
 .active {
@@ -65,17 +56,6 @@
   color: white;
 
 }
-
-
-
-
-/*------- Body------------*/
-.btn-primary {
-  background-color: #B2BEB5;
-}
-
-
-
 
 
 
