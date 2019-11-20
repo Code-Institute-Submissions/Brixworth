@@ -161,78 +161,52 @@
 </heading>
 <!--                   Main Area Start             -->
 
-<div class="container">
-<div class="col">
-<!--          Map Start       -->
-<style>
-
-#map {
-  height: 300px;
-  width: 300px;
-  margin-top: 30px;
-
-
-
-}
-
-</style>
-</head>
-<body>
-<div id="map"></div>
-<script>
-
-function initMap() {
-
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
-    center: {lat: 52.32886, lng: -0.903578}
-  });
-
-  var markers = locations.map(function(location, i) {
-    return new google.maps.Marker({
-      position: location,
-      label: labels[i % labels.length]
-    });
-  });
-
-  // Add a marker clusterer to manage the markers.
-  var markerCluster = new MarkerClusterer(map, markers,
-      {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-}
-var locations = [
-
-  {lat: 52.328886, lng: -0.903578},
-
-]
-
-
-</script>
-</div>
-
-<!--      Map End   -->
-
-
-
-<div class="col">
+<div class="row row-table">
+            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-conferences section-column">
+                <div class="row">
+                </div>
+              <div id="map"></div>
+            </div>
+            <div id="textarea">
+            </div>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+        <div class="row ">
+        <div class="main">
   <p><br><strong>Welcome to Brixworth.</strong> <br> <br>This a site for residents and villiagers. <br> Please feel free to come in and look around.<br> <p>
 </div>
 </div>
 
 
 
-<!--     Links to google maps -->
 
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-</script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJMseNm2wTxN2n6SUHknvwutK5wYQfWd8&callback=initMap">
-</script>
 <!--                   Main Area Finish            -->
 
 <!--                   Footer Start                 -->
 <footer>
 
 </footer>
+
+<script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: {
+                    lat: 52.32886,
+                    lng: -0.903578
+                }
+            });
+        }
+    </script>
+
+    <!--     Links to google maps -->
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJMseNm2wTxN2n6SUHknvwutK5wYQfWd8&callback=initMap">
+    </script>
+
+
+
 <!--                   Footer Finish           -->
 
 </body>
