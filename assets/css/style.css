@@ -90,6 +90,35 @@ div#dir2Sub {
 }
 
 
+div#dir3Sub {
+  font-size: 30px;
+  width: 95%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #87A96B;
+  margin-top: 15px;
+  display: none;
+}
+
+div#dir4Sub {
+  font-size: 30px;
+  width: 95%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #87A96B;
+  margin-top: 15px;
+  display: none;
+}
+div#dir5Sub {
+  font-size: 30px;
+  width: 95%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #87A96B;
+  margin-top: 15px;
+  display: none;
+}
+
 /* ------------------------ Contact me    --------------------*/
 
 div#contactForm{
