@@ -73,60 +73,62 @@
 <!--                   Menu Finish                 -->
 </heading>
 <!--                   Main Area Start             -->
-<div class="row row-table">
-            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-conferences section-column">
-                <div class="row">
+
                 </div>
-              <div id="map"></div>
+              <div id="dirMap"></div>
+
             </div>
-            <div id="textarea">
-            </div>
-      <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
-        <div class="row ">
-        <div class="main">
-          <div id="job">
-            <p>Junior Front-End Developer &nbsp &nbsp
-              <button class="btn btn-info btn-sm" onclick="myFunction1()">More info</button> </p>
-
-          <div id="job1Sub">
-            <p>Junior Developer looking for new challanges. <br>Skilled in HTML, CSS, Bootstrap and Javascript.<br><br>Please call Mark on 07455 900078<p>
-          </div>
-          </div>
-
-          <script>
-          function myFunction1() {
-            var x = document.getElementById("job1Sub");
-            if (x.style.display === "none") {
-              x.style.display = "block";
-            } else {
-              x.style.display = "none";
-            }
-          }
-          </script>
+            <div id="textarea" </div>
 
 
-          <div id="job">
-            <p>Coop
-              <button class="btn btn-info btn-sm" onclick="myFunction2()">More info</button> </p>
+  <!--                 Advert One                -->
 
-          <div id="job2Sub">
-            <p>Chemist <br>Experienced with Microsoft Word and Excel.<br><br>Please <a href="mailto:rogue-123@hotmail.co.uk" target="_top">email</a> Janine<p> </div>
-          </div>
-        </div>
-      </div>
+  <div id="dir"</div>
 
-          <script>
-          function myFunction2() {
-            var x = document.getElementById("job2Sub");
-            if (x.style.display === "none") {
-              x.style.display = "block";
-            } else {
-              x.style.display = "none";
-            }
-          }
-          </script>
-          </div>
-          </div>
+    <p>1. Brixworth Fish Bar &nbsp &nbsp
+      <button class="btn btn-info btn-sm" onclick="myFunction1()">More info</button> </p>
+
+  <div id="dir1Sub">
+    <p>Fish and Chips, Kebabs, Burgers<p>
+  </div>
+
+
+  <script>
+  function myFunction1() {
+    var x = document.getElementById("dir1Sub");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+<!--                 Advert Two                -->
+
+<div id="dir"</dir>
+
+    <p>1. Brixworth Fish Bar &nbsp &nbsp
+    <button class="btn btn-info btn-sm" onclick="myFunction2()">More info</button> </p>
+
+<div id="dir2Sub">
+  <p>Chinese Take Away <br><p>
+</div>
+</div>
+
+
+<script>
+function myFunction2() {
+  var x = document.getElementById("dir2Sub");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<!--                 Advert Three               -->
 
 
 <!--   Main Area Finish            -->
@@ -146,7 +148,7 @@
 
 <script>
         function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
+            var map = new google.maps.Map(document.getElementById("dirMap"), {
                 zoom: 10,
                 center: {
                     lat: 52.32886,

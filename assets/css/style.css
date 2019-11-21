@@ -9,8 +9,18 @@ div#map {
     margin-left: 100px;
     margin-top: 30px;
     margin-bottom:40px;
-
 }
+
+
+div#dirMap {
+    min-height:200px;
+    min-width: 200px;
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin: auto;
+  }
+
 
 /* ------------------------ Jobs --------------------*/
 
@@ -50,6 +60,35 @@ div#job{
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+div#dir{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+div#dir1Sub {
+  font-size: 30px;
+  width: 95%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #87A96B;
+  margin-top: 15px;
+  display: none;
+}
+
+div#dir2Sub {
+  font-size: 30px;
+  width: 95%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #87A96B;
+  margin-top: 15px;
+  display: none;
+}
+
 
 /* ------------------------ Contact me    --------------------*/
 
