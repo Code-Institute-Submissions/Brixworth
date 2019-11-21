@@ -25,10 +25,10 @@ div#textarea {
 div#job1Sub {
   font-size: 30px;
   width: 95%;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   background-color: #87A96B;
-  margin-top: 20px;
+  margin-top: 15px;
   display: none;
 
 }
@@ -36,10 +36,10 @@ div#job1Sub {
 div#job2Sub {
   font-size: 30px;
   width: 95%;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   background-color: #87A96B;
-  margin-top: 20px;
+  margin-top: 15px;
   display: none;
 }
 
@@ -66,6 +66,7 @@ font-size: 15px;
 font-weight: 200;
 text-align: center;
 color: #0000FF;
+margin-top: 10px;
 
 }
 
