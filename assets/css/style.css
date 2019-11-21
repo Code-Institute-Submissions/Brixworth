@@ -51,6 +51,13 @@ div#job{
   margin-bottom: 20px;
 }
 
+/* ------------------------ Contact me    --------------------*/
+
+div#contactForm{
+  width:70%;
+
+}
+
 
 /* ------------------------ General page styling  --------------------*/
 
@@ -85,9 +92,20 @@ div#footer{
 
 }
 
+/* ------------------------ Form styling ----------------------*/
 
+div#form{
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-/* ------------------------ Mrnu styling ----------------------*/
+div#submitButton{
+  margin-top:20px;
+
+}
+
+/* ------------------------ Menu styling ----------------------*/
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -144,12 +162,17 @@ div#footer{
 
 /*---------- Page styling ----------------------*/
 
+
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  vertical-align: middle;
+  width: 95%;
 }
+
+
 .hidden{
        display:none;
     }
