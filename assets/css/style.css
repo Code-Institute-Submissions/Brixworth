@@ -213,7 +213,7 @@ div#footer{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  height: 80 px;
+  height: 80px;
   background-color: #A3C1AD;
   font-size: 30px;
   text-align: center;
@@ -325,7 +325,7 @@ div#submitButton{
   font-family: 'Times New Roman', cursive;
   font-size: 20px;
   color: black;
-  test-allign: left;
+  text-align: left;
   margin-top:25px;
 
 }
@@ -524,7 +524,7 @@ div#dirMap {
     font-family: 'Times New Roman', cursive;
     font-size: 20px;
     color: black;
-    text-allign: left;
+    text-align: left;
     margin-top:10px;
 
   }
@@ -567,7 +567,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -609,7 +609,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -653,7 +653,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -693,7 +693,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -738,7 +738,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -780,7 +780,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -824,7 +824,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
@@ -864,7 +864,7 @@ div#heading{
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
-      text-allign: left;
+      text-align: left;
       margin-top:10px;
 
     }
