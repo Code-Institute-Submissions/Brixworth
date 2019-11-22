@@ -70,58 +70,49 @@
    </script>
 
         </div>
+
 <!--                   Menu Finish                 -->
 </heading>
 <!--                   Main Area Start             -->
-
-                </div>
-              <div id="dirMap"></div>
-
-            </div>
-
-
-
-  <!--                 Advert One                -->
-
-
-<div class="container" </div>
-  <div id="dir"</div>
-
-    <p>1. Brixworth Fish Bar &nbsp &nbsp
-      <button class="btn btn-info btn-sm" onclick="myFunction1()">More info</button> </p>
-
-  <div id="dir1Sub">
-    <p>Fish and Chips, Kebabs, Burgers<p>
+  <div class="container">
+  </div>
+    <div id="dirMap"></div>
   </div>
 
 
-  <script>
-  function myFunction1() {
-    var x = document.getElementById("dir1Sub");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  </script>
 
-<!--                 Advert Two                -->
+  <!--                 Listings                -->
 
 
-  <div id="dir"</div>
-    <p>2. China Garden &nbsp &nbsp
-    <button class="btn btn-info btn-sm" onclick="myFunction2()">More info</button> </p>
 
-<div id="dir2Sub">
-  <p>Chinese Take Away <br><p>
+
+<!--                   Food & Drink                 -->
+
+
+
+<div id="dirSubHeader">
+  <p>Food & Drink<p>
+  </div>
+
+  <!--                   Brixworth Fish Bar                 -->
+  <div id="dir">
+    <p>Brixworth Fish Bar &nbsp &nbsp
+      <button class="btn btn-info btn-sm" onclick="myFunction1()">More info</button>
+     <p>
+   </div>
+
+<div id="dir1Sub" style="display:none">
+      <span><p>Take Away <br>Fish and Chips - Kebabs - Burgers <br>Location marker number 1  on the above map <br>1 Hunters' Way, Brixworth, Northampton NN6 9EL <br>Tel: 01604 880850<br><p></span>
+    </div>
+  </div>
 </div>
-</div>
+
+
 
 
 <script>
-function myFunction2() {
-  var x = document.getElementById("dir2Sub");
+function myFunction1() {
+  var x = document.getElementById("dir1Sub");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -130,17 +121,35 @@ function myFunction2() {
 }
 </script>
 
-<!--                 Advert Three               -->
-
-  <div id="dir"</div>
-<p>3: Coach & Horses &nbsp &nbsp
-<button class="btn btn-info btn-sm" onclick="myFunction3()">More info</button> </p>
-
-<div id="dir3Sub">
-<p>Public House <br><p>
+<!--                   China Garden                 -->
+<div id="dir">
+<br>China Garden &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction2()">More info</button> </p>
 </div>
+<div id="dir2Sub" style="display:none">
+<p>Chinese Take Away<br>Location marker number 2 on the above map <br>132 Northampton Rd, Brixworth, Northampton NN6 9BU<br>Tel: 01604 889008<br><p>
 </div>
 
+
+
+<script>
+function myFunction2() {
+var x = document.getElementById("dir2Sub");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+
+<!--                   Coach & Horses                 -->
+<div id="dir">
+  <br>Coach & Horses &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction3()">More info</button> </p>
+</div>
+
+<div id="dir3Sub" style="display:none">
+<p>Public House<br>Resturant <br>Location marker number 3 on the above map <br>Brixworth, Northampton NN6 9UD<br>Tel: 01604 880329<br><p>
+</div>
 
 <script>
 function myFunction3() {
@@ -152,6 +161,147 @@ x.style.display = "none";
 }
 }
 </script>
+<!--                   The George                 -->
+  <div id="dir">
+<br>The George Inn &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction4()">More info</button> </p>
+</div>
+<div id="dir4Sub" style="display:none">
+<p>Public House<br>Location marker number 4 on the above map <br>Northampton Rd, Brixworth, Northampton NN6 9BU<br>Tel: 01604 881439<br><p>
+</div>
+
+<script>
+function myFunction4() {
+var x = document.getElementById("dir4Sub");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+
+</div>
+<!--                   Health                 -->
+<div id="dirSubHeader" >
+<p>Health<p>
+</div>
+
+<!--                   Pharmacy               -->
+  <div id="dir">
+     <p>Pharmacy &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction5()">More info</button> </p>
+</div>
+<div id="dir5Sub" style="display:none">
+<p>Well<br>Location marker number 1 on the above map <br>4 Hunters' Way, Brixworth, Northampton NN6 9EL<br>Tel: 01604 880156<br><p>
+</div>
+
+<script>
+function myFunction5() {
+var x = document.getElementById("dir5Sub");
+if (x.style.display === "none") {
+  x.style.display = "block";
+} else {
+  x.style.display = "none";
+}
+}
+</script>
+
+<!--                   Health center                -->
+
+<div id="dir">
+<br>Health Centre &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction6()">More info</button> </p>
+</div>
+<div id="dir6Sub"style="display:none">
+<p><br>GP Surgery & Health Centre<br>Location number 5 on the above map <br>Saxon Spires Practice, Northampton Rd, Brixworth NN6 9WU<br>Tel: 01604 880228<br><a href="https://www.saxonspires.co.uk/contact/brixworth-surgery/" target="_blank">website</a><p>
+</div>
+
+
+<script>
+function myFunction6() {
+var x = document.getElementById("dir6Sub");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+
+<!--                   General Store                 -->
+<div id="dirSubHeader">
+  <p>General Store <p>
+  </div>
+
+    <div id="dir">
+      <p>CoOp &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction7()">More info</button> </p>
+</div>
+
+  <div id="dir7Sub" style="display:none">
+    <p>Supermarket chain selling groceries and household goods, with a focus on ethical practices.<br>Location marker number 1 on the above map <br>3 Hunters' Way, Brixworth, Northampton NN6 9EL<br>Tel: 01604 880049<br><p>
+  </div>
+
+  <script>
+  function myFunction7() {
+    var x = document.getElementById("dir7Sub");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+
+<!--                   Leasure                 -->
+<div id="dirSubHeader">
+  <p>Leasure<p>
+  </div>
+
+    <div id="dir">
+    <p>Brixworth country park &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction8()">More info</button> </p>
+</div>
+
+<div id="dir8Sub" style="display:none">
+  <p>Trails, a sensory garden, watersports and cycling in park spaces with access for all abilities.<br>Location marker number 6 on the above map<p>
+</div>
+
+
+<script>
+function myFunction8() {
+  var x = document.getElementById("dir8Sub");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+<!--                   Local Services                 -->
+<div id="dirSubHeader">
+  <p>Local Services<p>
+  </div>
+
+  <div id="dir">
+      <p>Library &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction9()">More info</button> </p>
+</div>
+
+  <div id="dir9Sub" style="display:none">
+<p>Brixworth Library <br>Complete Library Services <br>Location marker number 7 on the above map <br>Spratton Rd, Brixworth, Northampton NN6 9DS<br>Tel: 0300 126 1000<br><p>
+  </div>
+
+
+  <script>
+  function myFunction9() {
+    var x = document.getElementById("dir9Sub");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
 
 <!--   Main Area Finish            -->
 
@@ -159,8 +309,7 @@ x.style.display = "none";
 <footer>
   <div class="container uppercase">
     <div id="footer">
-<p>To advertise your company please contact me <p>
-  <p>Silverheath - Complete Website services <p>
+<p>To advertise on this website<br>please contact me<p>
 </div>
 
 
@@ -176,6 +325,40 @@ x.style.display = "none";
                     lat: 52.32886,
                     lng: -0.903578
                 }
+            });
+
+
+        var labels = "1234567891011";
+            var locations = [{
+                lat: 52.328346,
+                lng: -0.906279
+                }, {
+                lat: 52.329987,
+                lng: -0.903190
+                }, {
+                lat: 52.331435,
+                lng: -0.901375
+                }, {
+                lat: 52.329610,
+                lng: -0.903434
+                }, {
+                lat: 52.318288,
+                lng: -0.903422
+              }, {
+                lat: 52.314938,
+                lng: -0.899904
+                }, {
+                lat: 52.328105,
+                lng: -0.905816
+                }];
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
             });
         }
     </script>

@@ -23,6 +23,12 @@ div#dirMap {
 
 
 /* ------------------------ Jobs --------------------*/
+div#job{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
 div#textarea {
 
@@ -33,91 +39,138 @@ div#textarea {
 }
 
 div#job1Sub {
-  font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
   text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 
 }
 
 div#job2Sub {
-  font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
-  text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
-}
-
-
-div#job{
   font-size: 20px;
-  margin-left: 100px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 }
+
+/* ------------------------ Directory --------------------*/
 
 div#dir{
   font-size: 20px;
-  margin-left: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
-div#dir1Sub {
+div#dirSubHeader
+{
   font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
+  margin-left: 150px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+div#dir1Sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
   text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 }
 
 div#dir2Sub {
-  font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
   text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 }
 
 
 div#dir3Sub {
-  font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
   text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 }
 
 div#dir4Sub {
-  font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
   text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 }
+
 div#dir5Sub {
-  font-size: 30px;
-  width: 95%;
-  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
   text-align: center;
-  background-color: #87A96B;
-  margin-top: 15px;
-  display: none;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
 }
+
+div#dir6Sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
+}
+
+
+div#dir7Sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
+}
+
+div#dir8Sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
+}
+
+div#dir9Sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
+}
+
+
 
 /* ------------------------ Contact me    --------------------*/
 
