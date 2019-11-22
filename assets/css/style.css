@@ -243,16 +243,13 @@ div#submitButton{
   background-color: #333;
   position: relative;
   max-width:200px
-
 }
 
-/* Hide links inside the navigation menu  */
 .topnav #myLinks {
   display: none;
   max-width:200px;
 }
 
-/* navigation menu */
 .topnav a {
   color: white;
   padding: 14px 16px;
@@ -263,8 +260,6 @@ div#submitButton{
   text-align: center;
 }
 
-/* hamburger menu */
-
 .topnav a.icon {
   background: black;
   display: block;
@@ -273,14 +268,11 @@ div#submitButton{
   top: 0;
 }
 
-/* grey background color on mouse-over */
-
 .topnav a:hover {
   background-color: white;
   color: black;
 }
 
-/* active link  */
 .active {
   background-color: white;
   color: white;
@@ -335,7 +327,7 @@ div#submitButton{
 }
 
 
-/*---------- Media queries ----------------------*/
+/*------------------------------------------------- Media queries ---------------------------------------------*/
 
 /* ----------------------- 320px ----------------------------- */
 
@@ -628,6 +620,7 @@ div#heading{
       margin-bottom: 5px;
       color: #CB410B;
       text-align: center;
+      width: 400px;
   }
 
   div#map {
@@ -658,8 +651,11 @@ div#heading{
 
     }
 }
+/* ----------------------- 1200px ----------------------------- */
+
 
 @media(min-width:1200px){
+
 div#heading{
     font-family: 'Times New Roman', cursive;
       font-weight: 800;
@@ -668,7 +664,7 @@ div#heading{
       margin-bottom: 5px;
       color: #CB410B;
       text-align: center;
-  }
+      }
 
   div#map {
       min-height:200px;
@@ -744,6 +740,7 @@ div#heading{
     }
 
 }
+
 /* ----------------------- 768px ----------------------------- */
 @media(min-width:768px){
 
@@ -789,9 +786,10 @@ div#heading{
 
   /* ----------------------- 992px ----------------------------- */
 
-@media(min-width:992px){
 
-  div#heading{
+  @media(min-width:320px){
+
+    div#heading{
     font-family: 'Times New Roman', cursive;
       font-weight: 800;
       font-size: 30px;
@@ -803,7 +801,7 @@ div#heading{
 
   div#map {
       min-height:200px;
-      margin-left: 15px;
+      margin-left: 80px;
       margin-top: 30px;
       margin-bottom: 5px;
       height: 300px;
@@ -820,53 +818,174 @@ div#heading{
       margin: auto;
     }
 
-    .main {
-      font-family: 'Times New Roman', cursive;
+
+    /* - Jobs --*/
+    div#job{
       font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
+      margin-left: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    div#textarea {
+
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 40px;
 
     }
-}
 
-@media(min-width:1200px){
-div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 96px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
+    div#job1Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
       text-align: center;
-  }
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
 
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
     }
+
+    div#job2Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    /* - Directory --*/
+
+    div#dir{
+      font-size: 20px;
+      margin-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    div#dirSubHeader{
+      font-size: 30px;
+      margin-left: 20px;
+      font-weight: 300;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+    }
+    div#dir1Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    div#dir2Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+
+    div#dir3Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    div#dir4Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    div#dir5Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    div#dir6Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+
+    div#dir7Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    div#dir8Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+    div#dir9Sub {
+      font-size: 20px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      color:#0047AB;
+      margin-top: 20px;
+    }
+
+
+      div#frontMain {
+          font-size: 20px;
+          margin-top: 30px;
+          font-weight: bold;
+          width: 100%;
+          text-align: center;
+          background-color: white;
+          color:#0047AB;
+      }
+
+
+
 
     .main {
       font-family: 'Times New Roman', cursive;
       font-size: 20px;
       color: black;
       text-align: left;
-      margin-top:10px;
+      margin-top:30px;
 
     }
-
   }
