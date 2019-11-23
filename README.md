@@ -8,7 +8,7 @@ Code Inistute Full Stact Developer Course <br>
 The site can be view at: www.silverheath.co.uk/brixworth/index.html
 
 <br>The main concept for site is a resource for visitors and residents of the village of Brixworth. <br> The contents of the site will include a what’s on guide, job and business directory. <br> <br>
-I am also hoping to gain extra income, either in the way of advertising on the site or building websites or local companies. <br> <br>
+I am also hoping to gain extra income, either in the way of advertising on the site,  or by building websites for local companies. <br> <br>
 
 # UI/UX
 <br>Navigation via a “Handburger” style menu.
