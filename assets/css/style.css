@@ -39,47 +39,27 @@ div#textarea {
 
 }
 
-div#job1Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-
-}
-
-div#job2Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
 /* ------------------------ Directory --------------------*/
 
-div#dir{
-  font-size: 20px;
-  margin-left: 350px;
+.listingText{
+  font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
 }
 
-div#dirSubHeader
-{
-  font-size: 30px;
-  margin-left: 150px;
-  font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+.listingSubheader{
+font-size: 40px;
+font-weight: 200;
+text-align: center;
+color: #0000FF;
+margin-top: 40px;
+margin-bottom: 40px;
 
 }
-div#dir1Sub {
+
+.listingsSubSection {
   font-size: 20px;
   font-weight: bold;
   width: 100%;
@@ -88,100 +68,6 @@ div#dir1Sub {
   color:#0047AB;
   margin-top: 20px;
 }
-
-div#dir2Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-
-div#dir3Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-div#dir4Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-div#dir5Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-div#dir6Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-
-div#dir7Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-div#dir8Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-div#dir9Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-div#dir10Sub {
-  font-size: 20px;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  color:#0047AB;
-  margin-top: 20px;
-}
-
-
 
 
 /* ------------------------ Contact me    --------------------*/
@@ -194,38 +80,20 @@ div#contactForm{
 
 /* ------------------------ General page styling  --------------------*/
 
-div#heading{
-  font-family: 'Times New Roman', cursive;
-    font-weight: 800;
-    font-size: 90px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #CB410B;
-    text-align: center;
-}
 
-div#mainText {
+
+.listingMainText {
   margin-left: 30px;
   font-size: 20px;
   margin-top: 20px;
-
+  text-align: center;
 }
 
-div#sectionHeader{
-font-size: 15px;
-font-weight: 200;
-text-align: center;
-color: #0000FF;
-margin-top: 10px;
-
-}
-
-div#footer{
+.footer{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  height: 80px;
   background-color: #A3C1AD;
   font-size: 30px;
   text-align: center;
@@ -329,14 +197,22 @@ div#submitButton{
        display:none;
     }
 
-.heading {
 
-}
 
-.mainheading {
+.mainHeading {
   font-family: 'Times New Roman', cursive;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 60px;
+  color: #CB410B;
+  margin-left: 60px;
+  margin-top:10px;
+  text-align: center;
+}
+
+.subHeading {
+  font-family: 'Times New Roman', cursive;
+  font-weight: 300;
+  font-size: 20px;
   color: #CB410B;
   margin-left: 60px;
   margin-top:10px;
