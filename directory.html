@@ -211,7 +211,8 @@ if (x.style.display === "none") {
 <br>Health Centre &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction6()">More info</button> </p>
 </div>
 <div id="dir6Sub"style="display:none">
-<p><br>GP Surgery & Health Centre<br>Location number 5 on the above map <br>Saxon Spires Practice, Northampton Rd, Brixworth NN6 9WU<br>Tel: 01604 880228<br><a href="https://www.saxonspires.co.uk/contact/brixworth-surgery/" target="_blank">website</a><p>
+<p><br>GP Surgery & Health Centre<br>Location number 5 on the above map <br>Saxon Spires Practice, Northampton Rd, Brixworth NN6 9WU<br>Tel: 01604 880228<br><br>
+<a href="https://www.saxonspires.co.uk/" class="btn btn-info">Their Website</a><p>
 </div>
 
 
@@ -295,6 +296,30 @@ function myFunction8() {
   <script>
   function myFunction9() {
     var x = document.getElementById("dir9Sub");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+
+  </script>
+
+  <div id="dir">
+      <p>Facebook &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction10()">More info</button> </p>
+  </div>
+
+  <div id="dir10Sub" style="display:none">
+  <p>Active Facebook group for villagers<br><br>
+    <a href="https://www.facebook.com/groups/brixworthletusknowpage/" class="btn btn-info">Their Website</a><p>
+<p>
+  </div>
+
+
+  <script>
+  function myFunction10() {
+    var x = document.getElementById("dir10Sub");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {

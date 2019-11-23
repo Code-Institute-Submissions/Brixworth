@@ -6,9 +6,10 @@
 
 div#map {
     min-height:200px;
-    margin-left: 100px;
     margin-top: 30px;
     margin-bottom:40px;
+    width: 60%;
+    margin-left: 200px;
 }
 
 
@@ -170,6 +171,17 @@ div#dir9Sub {
   margin-top: 20px;
 }
 
+div#dir10Sub {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color:#0047AB;
+  margin-top: 20px;
+}
+
+
 
 
 /* ------------------------ Contact me    --------------------*/
@@ -223,6 +235,25 @@ div#footer{
 
 }
 
+
+div#main{
+  font-family: 'Times New Roman', cursive;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  margin-top:25px;
+}
+
+
+div#frontMain{
+  font-family: 'Times New Roman', cursive;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-top:10px;
+}
+
 /* ------------------------ Form styling ----------------------*/
 
 div#form{
@@ -264,8 +295,8 @@ div#submitButton{
   background: black;
   display: block;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 10px;
+  top: 10px;
 }
 
 .topnav a:hover {
@@ -312,16 +343,6 @@ div#submitButton{
   text-align: center;
 }
 
-
-.main {
-  font-family: 'Times New Roman', cursive;
-  font-size: 20px;
-  color: black;
-  text-align: left;
-  margin-top:25px;
-
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -329,502 +350,60 @@ div#submitButton{
 
 /*------------------------------------------------- Media queries ---------------------------------------------*/
 
-/* ----------------------- 320px ----------------------------- */
+/* ----------------------Media Queries---------------------- */
 
-@media(min-width:320px){
-
-  div#heading{
-  font-family: 'Times New Roman', cursive;
-    font-weight: 800;
-    font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #CB410B;
-    text-align: center;
-}
-
-div#map {
-    min-height:200px;
-    margin-left: 15px;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    height: 300px;
-    width: 300px;
-}
-
-
-div#dirMap {
-    min-height:200px;
-    min-width: 200px;
-    height: 400px;
-    width: 500px;
-    display: block;
-    margin: auto;
-  }
-
-
-  /* - Jobs --*/
-  div#job{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-
-  div#textarea {
-
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-
-  }
-
-  div#job1Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-
-  }
-
-  div#job2Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  /* - Directory --*/
-
-  div#dir{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-
-  div#dirSubHeader{
-    font-size: 30px;
-    margin-left: 20px;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-  }
-  div#dir1Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  div#dir2Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-
-  div#dir3Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  div#dir4Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  div#dir5Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  div#dir6Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-
-  div#dir7Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  div#dir8Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-  div#dir9Sub {
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    color:#0047AB;
-    margin-top: 20px;
-  }
-
-
-
-  .main {
-    font-family: 'Times New Roman', cursive;
-    font-size: 20px;
-    color: black;
-    text-align: left;
-    margin-top:10px;
-
-  }
-}
-
-/* ----------------------- 576px ----------------------------- */
-
-@media(min-width:576px){
-
-div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 30px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
-      text-align: center;
-  }
-
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
-
-    .main {
-      font-family: 'Times New Roman', cursive;
-      font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
-
-    }
-
 }
-/* ----------------------- 768px ----------------------------- */
-@media(min-width:768px){
+
+
+/* ----------------------360px---------------------- */
+
+@media(max-width: 400px) {
 
   div#heading{
     font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 30px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
-      text-align: center;
-  }
-
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
-    }
-
-    .main {
-      font-family: 'Times New Roman', cursive;
+      font-weight: 400;
       font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
-
-    }
-
-  }
-
-  /* ----------------------- 410px ----------------------------- */
-
-@media(min-width:400px){
-
-  div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 30px;
       margin-top: 5px;
       margin-bottom: 5px;
       color: #CB410B;
       text-align: center;
-      width: 400px;
+      width:360;
   }
 
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
-
-    .main {
-      font-family: 'Times New Roman', cursive;
-      font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
-
+    .title {
+        font-size: 40px;
+        text-align: left;
+        max-width: 100px;
+        padding-left: 5px;
     }
-}
-/* ----------------------- 1200px ----------------------------- */
-
-
-@media(min-width:1200px){
-
-div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 96px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
-      text-align: center;
-      }
-
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
+    .intro {
+        max-width: 260px;
     }
-
-    .main {
-      font-family: 'Times New Roman', cursive;
-      font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
-
-    }
-
-  }
-
-
-/* ----------------------- 576px ----------------------------- */
-
-@media(min-width:576px){
-
-div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 30px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
-      text-align: center;
-  }
-
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
-    }
-
-    .main {
-      font-family: 'Times New Roman', cursive;
-      font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
-
-    }
-
-}
-
-/* ----------------------- 768px ----------------------------- */
-@media(min-width:768px){
-
-  div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 30px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
-      text-align: center;
-  }
-
-  div#map {
-      min-height:200px;
-      margin-left: 15px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
-    }
-
-    .main {
-      font-family: 'Times New Roman', cursive;
-      font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:10px;
-
-    }
-
-  }
-
-  /* ----------------------- 992px ----------------------------- */
-
-
-  @media(min-width:320px){
-
-    div#heading{
-    font-family: 'Times New Roman', cursive;
-      font-weight: 800;
-      font-size: 30px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      color: #CB410B;
-      text-align: center;
-  }
-
-  div#map {
-      min-height:200px;
-      margin-left: 80px;
-      margin-top: 30px;
-      margin-bottom: 5px;
-      height: 300px;
-      width: 300px;
-  }
-
-
-  div#dirMap {
-      min-height:200px;
-      min-width: 200px;
-      height: 400px;
-      width: 500px;
-      display: block;
-      margin: auto;
+    .intro-heading {
+        max-width: 300px;
     }
 
 
-    /* - Jobs --*/
+    /* ------------------------ Jobs --------------------*/
     div#job{
       font-size: 20px;
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       margin-bottom: 20px;
+      width: 95%;
     }
 
     div#textarea {
@@ -856,136 +435,34 @@ div#heading{
       margin-top: 20px;
     }
 
-    /* - Directory --*/
+    /* ------------------------ Directory --------------------*/
 
     div#dir{
       font-size: 20px;
-      margin-left: 20px;
+      margin-left: 25px;
       margin-top: 10px;
       margin-bottom: 10px;
       text-align: left;
     }
 
-    div#dirSubHeader{
+    div#dirSubHeader
+    {
       font-size: 30px;
-      margin-left: 20px;
+      margin-left: 70px;
       font-weight: 300;
       margin-top: 30px;
       margin-bottom: 30px;
 
     }
-    div#dir1Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-    div#dir2Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-
-    div#dir3Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-    div#dir4Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-    div#dir5Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-    div#dir6Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-
-    div#dir7Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-    div#dir8Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-    div#dir9Sub {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-
-      div#frontMain {
-          font-size: 20px;
-          margin-top: 30px;
-          font-weight: bold;
-          width: 100%;
-          text-align: center;
-          background-color: white;
-          color:#0047AB;
-      }
 
 
 
 
-    .main {
-      font-family: 'Times New Roman', cursive;
-      font-size: 20px;
-      color: black;
-      text-align: left;
-      margin-top:30px;
+
+    /* ------------------------ Contact me    --------------------*/
+
+    div#contactForm{
+
+      width:300px;
 
     }
-  }
