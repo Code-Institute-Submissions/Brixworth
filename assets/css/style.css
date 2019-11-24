@@ -201,8 +201,8 @@ div#submitButton{
 
 .mainHeading {
   font-family: 'Times New Roman', cursive;
-  font-weight: 300;
-  font-size: 60px;
+  font-weight: 600;
+  font-size: 90px;
   color: #CB410B;
   margin-left: 60px;
   margin-top:10px;
@@ -211,14 +211,22 @@ div#submitButton{
 
 .subHeading {
   font-family: 'Times New Roman', cursive;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 40px;
   color: #CB410B;
   margin-left: 60px;
   margin-top:10px;
   text-align: center;
 }
 
+
+.footerScroller {
+  font-family: 'Times New Roman', cursive;
+  font-weight: 200;
+  font-size: 40px;
+  color: #CB410B;
+  }
+  
 .uppercase {
     text-transform: uppercase;
 }
