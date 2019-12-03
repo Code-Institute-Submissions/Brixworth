@@ -50,7 +50,7 @@ div#textarea {
 
 
 .listingSubheader{
-font-size: 40px;
+font-size: 25px;
 font-weight: 200;
 text-align: center;
 color: #0000FF;
@@ -79,6 +79,10 @@ div#contactForm{
 
 
 /* ------------------------ General page styling  --------------------*/
+
+.jumbotron {
+  text-align: center;
+}
 
 
 
