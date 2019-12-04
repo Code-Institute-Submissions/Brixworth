@@ -80,6 +80,12 @@ div#contactForm{
 
 /* ------------------------ General page styling  --------------------*/
 
+
+.navbar-dark {
+background-color: black;
+}
+
+
 .jumbotron {
   text-align: center;
 }
@@ -186,6 +192,10 @@ div#submitButton{
 
 /*---------- Page styling ----------------------*/
 
+.navMain{
+  font-size: 15px;
+  background-color: #79443B;
+}
 
 
 .center {
@@ -200,18 +210,6 @@ div#submitButton{
 .hidden{
        display:none;
     }
-
-
-
-.mainHeading {
-  font-family: 'Times New Roman', cursive;
-  font-weight: 600;
-  font-size: 90px;
-  color: #CB410B;
-  margin-left: 35px;
-  margin-top:10px;
-  text-align: center;
-}
 
 .subHeading {
   font-family: 'Times New Roman', cursive;
