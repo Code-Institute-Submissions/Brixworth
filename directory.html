@@ -19,14 +19,7 @@
 
 
 <body>
-  <style>
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 70%;
-    height:250px;
-    margin: auto;
-  }
-  </style>
+
   </head>
 
 
@@ -80,7 +73,8 @@
 
 
 <!--                   Menu Finish                 -->
-</heading>
+</header>
+<body>
 <!--                   Main Area Start             -->
   <div class="container">
   </div>
@@ -91,258 +85,135 @@
 
   <!--                 Listings                -->
 
-
-
-
-<!--                   Food & Drink                 -->
-
-
-
 <div id="dirSubHeader" class="listingSubheader">
   <p>Food & Drink<p>
-  </div>
 
-  <!--                   Brixworth Fish Bar                 -->
-  <div id="dir" class="listingText">
-    <p>Brixworth Fish Bar &nbsp &nbsp
-      <button class="btn btn-info btn-sm" onclick="myFunction1()">More info</button>
-     <p>
-   </div>
 
-<div id="dir1Sub" style="display:none" class="jumbotron">
-      <span><p>Take Away <br>Fish and Chips - Kebabs - Burgers <br>Location marker number 1  on the above map <br>1 Hunters' Way, Brixworth, Northampton NN6 9EL <br>Tel: 01604 880850<br><p></span>
+<div class="row">
+  <div class="col">
+    <a class="btn btn-primary" data-toggle="collapse" href="#brixworthFishbar" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 50px;" aria-controls="brixworthfishbar">Brixworth Fish Bar</a>
+      <a class="btn btn-primary" data-toggle="collapse" href="#chinaGarden" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="chinagarden">China Garden</a>
+        <a class="btn btn-primary" data-toggle="collapse" href="#coachAndHorses" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="coachAndHorses">Coach & Horses</a>
+          <a class="btn btn-primary" data-toggle="collapse" href="#theGeorge" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="chinagarden">The George</a>
+
+</div>
+</div>
+
+      <div class="collapse multi-collapse" id="brixworthFishbar">
+        <div class="card card-body center-block" >
+          <span><p>Take Away <br> <br> Fish and Chips - Kebabs - Burgers <br><br>Location marker number 1  on the above map <br><br>1 Hunters' Way, Brixworth, Northampton NN6 9EL <br>Tel: 01604 880850<br><br><p> <img src="assets/images/shops3.jpg" alt="Village View" height="200px" width="200px"></span>
+
+        </div>
+      </div>
+      <div>
+
+        <div class="collapse multi-collapse" id="coachAndHorses">
+          <div class="card card-body center-block">
+            <span><p>Public House & Resturant <br> <br>Location marker number 3 on the above map <br> <br>Brixworth, Northampton NN6 9UD<br>Tel: 01604 880329<br> <br><p> <img src="assets/images/coachHorses.jpg" alt="Coach & Horses" height="200px" width="200px"></span>
+            </div>
+          </div>
+          <div>
+
+      <div class="collapse multi-collapse" id="theGeorge">
+        <div class="card card-body center-block" >
+          <span><p>Public House<br><br>Location marker number 4 on the above map <br><br>Northampton Rd, Brixworth, Northampton NN6 9BU<br>Tel: 01604 881439<br><br><p><img src="assets/images/theGeorge.jpg" alt="The George" height="200px" width="200px"></span>
+        </div>
+      </div>
+    <div>
+
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="chinaGarden">
+        <div class="card card-body center-block" >
+          <p>Chinese Take Away<br><br>Location marker number 2 on the above map <br><br>132 Northampton Rd, Brixworth, Northampton NN6 9BU<br>Tel: 01604 889008<br><p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-
-
-
-<script>
-function myFunction1() {
-  var x = document.getElementById("dir1Sub");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
-<!--                   China Garden                 -->
-<div id="dir" class="listingText">
-<br>China Garden &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction2()">More info</button> </p>
-</div>
-<div id="dir2Sub" style="display:none" class="jumbotron">
-<p>Chinese Take Away<br>Location marker number 2 on the above map <br>132 Northampton Rd, Brixworth, Northampton NN6 9BU<br>Tel: 01604 889008<br><p>
-</div>
-
-
-
-<script>
-function myFunction2() {
-var x = document.getElementById("dir2Sub");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script>
-
-<!--                   Coach & Horses                 -->
-<div id="dir" class="listingText">
-  <br>Coach & Horses &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction3()">More info</button> </p>
-</div>
-
-<div id="dir3Sub" style="display:none" class="jumbotron">
-<p>Public House<br>Resturant <br>Location marker number 3 on the above map <br>Brixworth, Northampton NN6 9UD<br>Tel: 01604 880329<br><p>
-</div>
-
-<script>
-function myFunction3() {
-var x = document.getElementById("dir3Sub");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script>
-<!--                   The George                 -->
-  <div id="dir" class="listingText">
-<br>The George Inn &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction4()">More info</button> </p>
-</div>
-<div id="dir4Sub" style="display:none" class="jumbotron">
-<p>Public House<br>Location marker number 4 on the above map <br>Northampton Rd, Brixworth, Northampton NN6 9BU<br>Tel: 01604 881439<br><p>
-</div>
-
-<script>
-function myFunction4() {
-var x = document.getElementById("dir4Sub");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script>
-
-</div>
-<!--                   Health                 -->
 <div id="dirSubHeader" class="listingSubheader">
-<p>Health<p>
+  <p>Health And Leasure<p>
+
+      <a class="btn btn-primary" data-toggle="collapse" href="#well" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="well">Well Pharmacy</a>
+      <a class="btn btn-primary" data-toggle="collapse" href="#healthCenter" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="healthCenter">Health Center</a>
+      <a class="btn btn-primary" data-toggle="collapse" href="#park" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="park">Brixworth Country Park</a>
 </div>
+    <div class="row">
+      <div class="col">
+        <div class="collapse multi-collapse" id="well">
+          <div class="card card-body center-block">
+            <p>Well<br><br>Location marker number 1 on the above map <br><br>4 Hunters' Way, Brixworth, Northampton NN6 9EL<br>Tel: 01604 880156<br> <br><p><img src="assets/images/shop2.jpg" alt="Well Pharmacy" height="200px" width="200px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<!--                   Pharmacy               -->
-  <div id="dir" class="listingText">
-     <p>Pharmacy &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction5()">More info</button> </p>
-</div>
-<div id="dir5Sub" style="display:none" class="jumbotron">
-<p>Well<br>Location marker number 1 on the above map <br>4 Hunters' Way, Brixworth, Northampton NN6 9EL<br>Tel: 01604 880156<br><p>
-</div>
-
-<script>
-function myFunction5() {
-var x = document.getElementById("dir5Sub");
-if (x.style.display === "none") {
-  x.style.display = "block";
-} else {
-  x.style.display = "none";
-}
-}
-</script>
-
-<!--                   Health center                -->
-
-<div id="dir" class="listingText">
-<br>Health Centre &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction6()">More info</button> </p>
-</div>
-<div id="dir6Sub"style="display:none" class="jumbotron">
-<p><br>GP Surgery & Health Centre<br>Location number 5 on the above map <br>Saxon Spires Practice, Northampton Rd, Brixworth NN6 9WU<br>Tel: 01604 880228<br><br>
-<a href="https://www.saxonspires.co.uk/" class="btn btn-info">Their Website</a><p>
-</div>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="healthCenter">
+            <div class="card card-body center-block" >
+              <p><br>GP Surgery & Health Centre<br>Location number 5 on the above map <br>Saxon Spires Practice, Northampton Rd, Brixworth NN6 9WU<br>Tel: 01604 880228<br><br>
+              <a href="https://www.saxonspires.co.uk/" class="btn btn-info">Their Website</a><p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-<script>
-function myFunction6() {
-var x = document.getElementById("dir6Sub");
-if (x.style.display === "none") {
-x.style.display = "block";
-} else {
-x.style.display = "none";
-}
-}
-</script>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="park">
+                <div class="card card-body center-block"
+                  <p>Trails, a sensory garden, watersports and cycling in park spaces. <br> Access for all abilities.<br> <br>Location marker number 6 on the above map <br><br><p><img src="assets/images/park2.jpg" alt="Country Park" height="200px" width="200px">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-<!--                   General Store                 -->
-<div id="dirSubHeader" class="listingSubheader">
-  <p>General Store <p>
-  </div>
-
-    <div id="dir" class="listingText">
-      <p>CoOp &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction7()">More info</button> </p>
-</div>
-
-  <div id="dir7Sub" style="display:none" class="jumbotron">
-    <p>Supermarket chain selling groceries and household goods, with a focus on ethical practices.<br>Location marker number 1 on the above map <br>3 Hunters' Way, Brixworth, Northampton NN6 9EL<br>Tel: 01604 880049<br><p>
-  </div>
-
-  <script>
-  function myFunction7() {
-    var x = document.getElementById("dir7Sub");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  </script>
-
-
-<!--                   Leasure                 -->
-<div id="dirSubHeader" class="listingSubheader">
-  <p>Leasure<p>
-  </div>
-
-    <div id="dir" class="listingText">
-    <p>Brixworth country park &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction8()">More info</button> </p>
-</div>
-
-<div id="dir8Sub" style="display:none" class="jumbotron">
-  <p>Trails, a sensory garden, watersports and cycling in park spaces with access for all abilities.<br>Location marker number 6 on the above map<p>
-</div>
-
-
-<script>
-function myFunction8() {
-  var x = document.getElementById("dir8Sub");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
-
-
-<!--                   Local Services                 -->
 <div id="dirSubHeader" class="listingSubheader">
   <p>Local Services<p>
-  </div>
 
-  <div id="dir" class="listingText">
-      <p>Library &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunction9()">More info</button> </p>
-</div>
+    <a class="btn btn-primary" data-toggle="collapse" href="#library" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="library">Library</a>
+    <a class="btn btn-primary" data-toggle="collapse" href="#facebook" role="button" aria-expanded="false" style=" margin-top:20px; margin-left: 20px;" aria-controls="facebook">Facebook</a>
 
-  <div id="dir9Sub" style="display:none" class="jumbotron">
-<p>Brixworth Library <br>Complete Library Services <br>Location marker number 7 on the above map <br>Spratton Rd, Brixworth, Northampton NN6 9DS<br>Tel: 0300 126 1000<br><p>
-  </div>
-
-
-  <script>
-  function myFunction9() {
-    var x = document.getElementById("dir9Sub");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  </script>
-
-    <div id="dir" class="listingText">
-        <p><br>Facebook &nbsp &nbsp<button class="btn btn-info btn-sm" onclick="myFunctionDivFacebook()">More info</button> </p>
-  </div>
-
-    <div id="dirFacebook" style="display:none" class="jumbotron">
-  <p>Facebook Group for residents &nbsp &nbsp<a href="https://www.facebook.com/groups/brixworthletusknowpage/" class="btn btn-info">Their Website</a><br><p><p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="library">
+            <div class="card card-body center-block">
+          <p>Brixworth Library <br><br>Complete Library Services <br><br>Location marker number 7 on the above map <br><br>Spratton Rd, Brixworth, Northampton NN6 9DS<br>Tel: 0300 126 1000<br><br><p><img src="assets/images/library.jpg" alt="Library" height="200px" width="200px"
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+      <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="facebook">
+              <div class="card card-body center-block">
+                <p>Facebook Group for residents &nbsp &nbsp<a href="https://www.facebook.com/groups/brixworthletusknowpage/" class="btn btn-info">Their Website</a><br><p><p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-    <script>
-    function myFunctionDivFacebook() {
-      var x = document.getElementById("dirFacebook");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    </script>
 
 
 
-<!--   Main Area Finish            -->
-
-<!--                   Footer Start                 -->
+</body>
 <footer>
 
-    <div class="container uppercase footerScroller">
-         <marquee class="GeneratedMarquee" direction="left" scrollamount="9" behavior="scroll">To advertise here please contace me.</marquee>
-    </div>
-
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-text uppercase footer">
+    <p>To place your advert here. <br>Please contact me.<p>
+  </span>
+</nav>
 
 </footer>
 
