@@ -29,15 +29,15 @@ Future:
 Bootstrap - https://getbootstrap.com/ <br>
 Email JS: https://www.emailjs.com/ <br>
 British History: https://www.british-history.ac.uk/ <br>
-Google Maps API <br><br>
-W3 Schools 
+Google Maps API <br>
+W3 Schools <br> <br<>
 
 # Site Testing 
 <br>
 CSS Validation Service <br>
 W3C Markup Validation Service <br>
 JQuery <br>
-Friends & Family<br>
+Friends & Family<br> <br>
 
 # Backend
 
@@ -45,7 +45,7 @@ Friends & Family<br>
 Atom - Coding software <br>
 Siteground - Hositing <br>
 GitHib <br>
-Google Domains <br>
+Google Domains <br> <br>
 
 
 
