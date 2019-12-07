@@ -42,10 +42,10 @@ Friends & Family<br>
 # Backend
 
 <br>
-Atom - Coding software
-Siteground - Hositing 
-GitHib 
-Google Domains
+Atom - Coding software <br>
+Siteground - Hositing <br>
+GitHib <br>
+Google Domains <br>
 
 
 
