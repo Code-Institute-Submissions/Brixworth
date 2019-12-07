@@ -1,45 +1,36 @@
 /* ------------------------ Card --------------------*/
-
 .card {
-  background-color:grey;
-  margin-top:20px;
-  color:black;
-  width:50%;
+  background-color: grey;
+  margin-top: 20px;
+  color: black;
+  width: 50%;
 }
 
-
 /* ------------------------ Map ----------------------*/
-
 #map {
   height: 50%;
   background-color: grey;
 }
 
-
-
-
-
 div#map {
-    min-height:200px;
-    margin-top: 30px;
-    margin-bottom:40px;
-    width: 60%;
-    margin-left: 200px;
+  min-height: 200px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 60%;
+  margin-left: 200px;
 }
 
-
 div#dirMap {
-    min-height:200px;
-    min-width: 200px;
-    height: 400px;
-    width: 500px;
-    display: block;
-    margin: auto;
-  }
-
+  min-height: 200px;
+  min-width: 200px;
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin: auto;
+}
 
 /* ------------------------ Jobs --------------------*/
-div#job{
+div#job {
   font-size: 20px;
   margin-left: 100px;
   margin-top: 30px;
@@ -47,31 +38,26 @@ div#job{
 }
 
 div#textarea {
-
   margin-left: 100px;
   margin-top: 20px;
   margin-bottom: 40px;
-
 }
 
 /* ------------------------ Directory --------------------*/
-
-.listingText{
+.listingText {
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-
-.listingSubheader{
-font-size: 25px;
-font-weight: 200;
-text-align: center;
-color: #0000FF;
-margin-top: 40px;
-margin-bottom: 40px;
-
+.listingSubheader {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  color: #0000FF;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .listingsSubSection {
@@ -80,32 +66,23 @@ margin-bottom: 40px;
   width: 100%;
   text-align: center;
   background-color: white;
-  color:#0047AB;
+  color: #0047AB;
   margin-top: 20px;
 }
 
-
 /* ------------------------ Contact me    --------------------*/
-
-div#contactForm{
-  width:70%;
-
+div#contactForm {
+  width: 70%;
 }
-
 
 /* ------------------------ General page styling  --------------------*/
-
-
 .navbar-dark {
-background-color: black;
+  background-color: black;
 }
-
 
 .jumbotron {
   text-align: center;
 }
-
-
 
 .listingMainText {
   margin-left: 30px;
@@ -114,7 +91,7 @@ background-color: black;
   text-align: center;
 }
 
-.footer{
+.footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -125,39 +102,34 @@ background-color: black;
   color: #960018;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
 
-
-div#main{
+div#main {
   font-family: 'Times New Roman', cursive;
   font-size: 20px;
   color: black;
   text-align: left;
-  margin-top:25px;
+  margin-top: 25px;
 }
 
-
-div#frontMain{
+div#frontMain {
   font-family: 'Times New Roman', cursive;
   width: 100%;
   font-size: 20px;
   color: black;
   text-align: center;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 /* ------------------------ Form styling ----------------------*/
-
-div#form{
+div#form {
   width: 500px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-div#submitButton{
-  margin-top:20px;
-
+div#submitButton {
+  margin-top: 20px;
 }
 
 /* ------------------------ Menu styling ----------------------*/
@@ -166,12 +138,12 @@ div#submitButton{
   overflow: hidden;
   background-color: #333;
   position: relative;
-  max-width:200px
+  max-width: 200px
 }
 
 .topnav #myLinks {
   display: none;
-  max-width:200px;
+  max-width: 200px;
 }
 
 .topnav a {
@@ -200,18 +172,13 @@ div#submitButton{
 .active {
   background-color: white;
   color: white;
-
 }
 
-
-
 /*---------- Page styling ----------------------*/
-
-.navMain{
+.navMain {
   font-size: 15px;
   background-color: #79443B;
 }
-
 
 .center {
   display: block;
@@ -221,10 +188,9 @@ div#submitButton{
   width: 95%;
 }
 
-
-.hidden{
-       display:none;
-    }
+.hidden {
+  display: none;
+}
 
 .subHeading {
   font-family: 'Times New Roman', cursive;
@@ -232,100 +198,87 @@ div#submitButton{
   font-size: 40px;
   color: #CB410B;
   margin-left: 60px;
-  margin-top:10px;
+  margin-top: 10px;
   text-align: center;
 }
-
 
 .footerScroller {
   font-family: 'Times New Roman', cursive;
   font-weight: 200;
   font-size: 40px;
   color: #CB410B;
-  }
+}
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-
 
 /*------------------------------------------------- Media queries ---------------------------------------------*/
-
 /* ----------------------Media Queries---------------------- */
-
 @media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
 
-
 /* ----------------------360px---------------------- */
-
 @media(max-width: 450px) {
-
-
   .mainHeading {
     font-family: 'Times New Roman', cursive;
     font-weight: 400;
     font-size: 50px;
     color: #CB410B;
-    margin-top:10px;
+    margin-top: 10px;
     text-align: left;
     margin-left: 40px;
     width: 390px;
   }
 
-    .center{
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 80%;
-    }
-    .title {
-        font-size: 40px;
-        text-align: left;
-        max-width: 100px;
-        padding-left: 5px;
-    }
-    .intro {
-        max-width: 260px;
-    }
-    .intro-heading {
-        max-width: 300px;
-    }
+  .center {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 80%;
+  }
 
+  .title {
+    font-size: 40px;
+    text-align: left;
+    max-width: 100px;
+    padding-left: 5px;
+  }
 
-    .listingSubheader{
+  .intro {
+    max-width: 260px;
+  }
+
+  .intro-heading {
+    max-width: 300px;
+  }
+
+  .listingSubheader {
     font-size: 20px;
     font-weight: 200;
     text-align: center;
     color: #0000FF;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
 
-    }
+  .listingsSubSection {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: #0047AB;
+    margin-top: 20px;
+  }
 
-    .listingsSubSection {
-      font-size: 20px;
-      font-weight: bold;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      color:#0047AB;
-      margin-top: 20px;
-    }
-
-
-
-
-    /* ------------------------ Contact me    --------------------*/
-
-    div#contactForm{
-
-      width:300px;
-
-    }
+  /* ------------------------ Contact me    --------------------*/
+  div#contactForm {
+    width: 300px;
+  }
