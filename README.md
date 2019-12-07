@@ -30,7 +30,7 @@ Bootstrap - https://getbootstrap.com/ <br>
 Email JS: https://www.emailjs.com/ <br>
 British History: https://www.british-history.ac.uk/ <br>
 Google Maps API <br>
-W3 Schools <br> <br<>
+W3 Schools <br> <br>
 
 # Site Testing 
 <br>
