@@ -32,13 +32,20 @@ British History: https://www.british-history.ac.uk/ <br>
 Google Maps API <br><br>
 W3 Schools 
 
-
-
-
 # Site Testing 
 <br>
 CSS Validation Service <br>
 W3C Markup Validation Service <br>
 JQuery <br>
 Friends & Family<br>
+
+# Backend
+
+<br>
+Atom - Coding software
+Siteground - Hositing 
+GitHib 
+Google Domains
+
+
 
