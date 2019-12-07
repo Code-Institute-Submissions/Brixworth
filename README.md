@@ -14,7 +14,8 @@ I am also hoping to gain extra income, either in the way of advertising on the s
 
 # UI/UX
 <br>Navigation via a navbar base code code from bootstrap.
-Initial landing page showing photos taken around the village. In addition a google map showing the village centre and surrounding area. <br> <br>
+Initial landing page showing photos taken around the village.
+All photos taken by myself.<br> <br>
 
 # Pages to include:
 <br>What’s on Guide, Local Jobs, Local Business Directory. <br><br>
@@ -39,4 +40,5 @@ W3 Schools
 CSS Validation Service <br>
 W3C Markup Validation Service <br>
 JQuery <br>
+Friends & Family<br>
 
