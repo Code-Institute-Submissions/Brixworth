@@ -23,14 +23,15 @@
   <style>
     .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
-      width: 70%;
-      height: 250px;
-      margin: auto;
+      width: 340px;
+      height: 340px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: 30px;
+
     }
   </style>
   </head>
-
-
   <!--                   Heading Start             -->
 
   <header>
@@ -47,65 +48,37 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav">
 
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="whatson.html">What's On</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="jobs.html">Jobs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="directory.html">Directory</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="history.html">History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="whatson.html">What's On</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="jobs.html">Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="directory.html">Directory</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
 
+            </div>
         </div>
-    </div>
     </div>
 
     <!--                   Menu Finish                 -->
-    <div class="container">
-      <div class="container subHeading uppercase">
-        <p>History<p>
-      </div>
+    <header>
 
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-
-          <div class="item active">
-            <img src="assets/images/church1.jpg" alt="Brixworth sign">
-          </div>
-
-          <div class="item">
-            <img src="assets/images/coachHorses.jpg" alt="Street View">
-          </div>
-
-          <div class="item">
-            <img src="assets/images/theGeorge.jpg" alt="Country Park">
-          </div>
-        </div>
-        <!--                   Heading Finish             -->
-
-
-        </heading>
-        <!--                   Main Area Start             -->
-
-        <div class="container mainText">
+      <div class="container >
+          <div id=" historyMain">
+        <div class="col-sm-6  historyMain">
           <p><br>The parish of Brixworth covers an area of 3,148 acres, and rises to a little over 400 ft. above the ordnance datum. The soil is mainly Northamptonshire sandstone, with ironstone and a little clay; the subsoil is ironstone. Iron ore
             is quarried extensively in the parish and there is a brick and tile works situated on the southern border. <p>
 
@@ -126,14 +99,92 @@
                                       href="https://www.british-history.ac.uk/vch/northants/vol4/pp150-157" target="_blank">website<a>.<p>
         </div>
 
-        <!--                   Main Area Finish            -->
+        <div class="container">
+          <div class="col-sm-6 ">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-        <!--                   Footer Start                 -->
-        <footer>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
 
-        </footer>
-        <!--                   Footer Finish           -->
+                <div class="item active">
+                  <img src="assets/images/church1.jpg" alt="Brixworth sign">
+                </div>
 
+                <div class="item">
+                  <img src="assets/images/coachHorses.jpg" alt="Street View">
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/theGeorge.jpg" alt="Country Park">
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/park2.jpg" alt="Country Park 2nd View">
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/shop1.jpg" alt="Church">
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/street2.jpg" alt="Couintry Park 2nd View">
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/street3.jpg" alt="Village View">
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/church1.jpg" alt="Village View">
+                </div>
+
+
+                <div class="item">
+                  <img src="assets/images/theGeorge.jpg" alt="Village View">
+                </div>
+
+              </div>
+            </div>
+            <!--                   Heading Finish             -->
+
+            <!--                   Main Area Start             -->
+
+
+
+
+
+
+
+
+
+
+            <!--                   Main Area Finish            -->
 </body>
+<!--                   Footer Start                 -->
+
+
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 10,
+      center: {
+        lat: 52.32886,
+        lng: -0.903578
+      }
+    });
+  }
+</script>
+
+<!--     Links to google maps -->
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJMseNm2wTxN2n6SUHknvwutK5wYQfWd8&callback=initMap">
+</script>
+
+
+
+<!--                   Footer Finish           -->
+
 
 </html>
