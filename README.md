@@ -13,7 +13,7 @@ I am also hoping to gain extra income, either in the way of advertising on the s
 <br>I have decided to hard code the company details into the directory as I wish try and sell that space as advertising. I did toy with using google places but wanted to retain full control on the content and layout.<br>
 
 # UI/UX
-<br>Navigation via a navbar base code code from bootstrap.
+<br>Navigation via a navbar's base code code from bootstrap.
 Initial landing page showing photos taken around the village.
 All photos taken by myself.<br> <br>
 
